@@ -1,0 +1,421 @@
+[
+  {
+    "elements": [
+      {
+        "id": "imdb-search;search-for-a-movie-using-\"chevy-chase\"",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Search for a movie using \"Chevy Chase\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 8310682974
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"Chevy Chase\" in a search field",
+            "result": {
+              "status": "passed",
+              "duration": 1139320315
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 3338885811
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I find the corresponding \"Chevy Chase\" in the search results",
+            "result": {
+              "status": "passed",
+              "duration": 1096510689
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1944410987
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-a-movie-using-\"colin-firth\"-with-down-button-and-enter-key",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Search for a movie using \"Colin Firth\" with down button and enter key",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 8338110112
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"Colin Firth\" in a search field",
+            "result": {
+              "status": "passed",
+              "duration": 1104947603
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press down button",
+            "result": {
+              "status": "passed",
+              "duration": 1028984697
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press enter",
+            "result": {
+              "status": "passed",
+              "duration": 5018021714
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I get a presentation of the actor that contains the text \"Colin Andrew Firth was born into an academic family in Grayshott\"",
+            "result": {
+              "status": "passed",
+              "duration": 139915441
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1781008248
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-a-movie-or-actor-with-the-help-of-<search_filter>",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Search for a movie or actor with the help of <search_filter>",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 7554489952
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search filter button",
+            "result": {
+              "status": "passed",
+              "duration": 256038155
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I find different search filters to choose from",
+            "result": {
+              "status": "passed",
+              "duration": 140029
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:90"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on All",
+            "result": {
+              "status": "passed",
+              "duration": 252223702
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can find an empty search field with corresponding search filter.",
+            "result": {
+              "status": "passed",
+              "duration": 10167030
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2082017217
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-a-movie-or-actor-with-the-help-of-<search_filter>",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Search for a movie or actor with the help of <search_filter>",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 7751702611
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search filter button",
+            "result": {
+              "status": "passed",
+              "duration": 270189679
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I find different search filters to choose from",
+            "result": {
+              "status": "passed",
+              "duration": 75127
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:90"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on Titles",
+            "result": {
+              "status": "passed",
+              "duration": 258484949
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:101"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can find an empty search field with corresponding search filter.",
+            "result": {
+              "status": "passed",
+              "duration": 10462632
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2069786422
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-a-movie-with-\"-vacation-\"-and-released-”1983”.",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Search for a movie with \" Vacation \" and released ”1983”.",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 8895163551
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \" Vacation \"  and ”1983” in a search field",
+            "result": {
+              "status": "passed",
+              "duration": 178111546
+            },
+            "line": 47,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:141"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 3360841480
+            },
+            "line": 48,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I find the corresponding  \" Vacation \"  and ”1983”  in the search results",
+            "result": {
+              "status": "passed",
+              "duration": 101032074
+            },
+            "line": 49,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:149"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2927672813
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "imdb-search",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "IMDB-search",
+    "tags": [],
+    "uri": "/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature"
+  }
+]
