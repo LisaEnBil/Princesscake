@@ -78,5 +78,90 @@ module.exports = function() {
     let presentation = await driver.findElement(By.css('#name-overview-widget'));
     let presentationText = await presentation.getText();
     assert.include(presentationText, partOfPresentation, 'Could not find the text "' + partOfPresentation + '" in the presentation.');
-  })
+  });
+
+
+  this.When(/^I click on search filter button$/, async function () {
+    let button = await $('label.ipc-button:nth-child(1) > div:nth-child(1)');
+    await button.click();
+    await normalSleep;
+  });
+
+  this.When(/^I find different search filters to choose from$/, async function () {
+
+  });
+
+  this.When(/^I click on All$/, async function () {
+    let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(1)');
+    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(1)');
+    await normalSleep;
+    assert(button, 'Click on the button');
+  });
+
+  this.When(/^I click on Titles$/, async function () {
+    let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(2)');
+    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(2)');
+    await normalSleep;
+    assert(button, 'Click on the button');
+  });
+
+  this.When(/^I click on TV Episodes$/, async function () {
+    let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(3)');
+    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(3)');
+    await normalSleep;
+    assert(button, 'Click on the button');
+  });
+
+  this.When(/^I click on Celebs$/, async function () {
+    let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(4)');
+    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(4)');
+    await normalSleep;
+    assert(button, 'Click on the button');
+  });
+
+  this.When(/^I click on Companies$/, async function () {
+    let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(5)');
+    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(5)');
+    await normalSleep;
+    assert(button, 'Click on the button');
+  });
+
+  this.When(/^I click on Keywords$/, async function () {
+    let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(6)');
+    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(6)');
+    await normalSleep;
+    assert(button, 'Click on the button');
+  });
+
+
+  this.Then(/^I can find an empty search field with corresponding search filter\.$/, async function () {
+    let searchField = await $('#suggestion-search');
+    await normalSleep;
+    assert(searchField, 'Expected the search CSS selector to prov that we find an empty search field');
+
+  });
+
+
+  this.When(/^I enter "([^"]*)"  and ”(\d+)” in a search field$/, async function (movieTitle,Year) {
+    let searchField= await $('#suggestion-search');
+    await searchField.sendKeys(movieTitle);
+    await normalSleep;
+    await searchField.sendKeys(Year);
+    await normalSleep;
+  });
+
+  this.Then(/^I find the corresponding  "([^"]*)"  and ”(\d+)”  in the search results$/, async function (searchString, searchNumber) {
+    let results = await $ ('h3'); 
+
+    let found = false;
+    for(let result of results){
+      console.log('text', await result.getText())
+      let text = await result.getText()
+      if( text.toLowerCase().includes( searchString.toLowerCase() ) ){
+        found = true;
+        break
+      }
+    }
+  });
+
 }
