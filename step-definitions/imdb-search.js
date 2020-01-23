@@ -93,46 +93,45 @@ module.exports = function() {
 
   this.When(/^I click on All$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(1)');
-    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(1)');
+    await button.click();
     await normalSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Titles$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(2)');
-    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(2)');
+    await button.click();
     await normalSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on TV Episodes$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(3)');
-    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(3)');
+    await button.click();
     await normalSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Celebs$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(4)');
-    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(4)');
+    await button.click();
     await normalSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Companies$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(5)');
-    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(5)');
+    await button.click();
     await normalSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Keywords$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(6)');
-    await button.click('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(6)');
+    await button.click();
     await normalSleep;
     assert(button, 'Click on the button');
   });
-
 
   this.Then(/^I can find an empty search field with corresponding search filter\.$/, async function () {
     let searchField = await $('#suggestion-search');
