@@ -1,16 +1,4 @@
- 
-  | "Niel Breen"  |
- 
-  | "Josh Hartnett" | "Joshua Daniel Hartnett was born in Saint Paul, Minnesota"         |
 
-
-     | TV Episodes |
-         | Celebs      |
-         | Companies   |
-         | Keywords    |
-
-
-   | " Vacation"  | ”2015” |
  
  
 let {$, sleep} = require('./funcs');

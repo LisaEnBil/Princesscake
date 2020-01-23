@@ -1,33 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" tests="4" failures="0" skipped="0">
+    <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="1" skipped="1">
         <properties>
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="8.310682974">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="10.168414677">
         </testcase>
-        <testcase name="When I enter &quot;Chevy Chase&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.139320315">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.298100258">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="3.338885811">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000117567">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;Chevy Chase&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.096510689">
+        <testcase name="And I click on All" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.014437751">
+            <failure message="InvalidSelectorError: Given css selector expression &quot;.menuitem[0] &quot; is invalid: SyntaxError: &apos;.menuitem[0] &apos; is not a valid selector">InvalidSelectorError: Given css selector expression &quot;.menuitem[0] &quot; is invalid: SyntaxError: &apos;.menuitem[0] &apos; is not a valid selector
+    at Object.throwDecodedError (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/error.js:497:15)
+    at parseHttpResponse (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/http.js:519:13)
+    at /Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElements(By(css selector, .menuitem[0] ))
+    at thenableWebDriverProxy.schedule (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/webdriver.js:1048:22)
+    at /Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/until.js:243:23
+    at /Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/webdriver.js:938:14
+    at TaskQueue.execute_ (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:3092:14)
+    at TaskQueue.executeNext_ (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:3075:27)
+    at /Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:2982:25
+    at /Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: &lt;anonymous&gt;
+    at pollCondition (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:2203:19)
+    at /Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:2199:7
+    at new ManagedPromise (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:1085:7)
+    at ControlFlow.promise (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:2513:12)
+    at /Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:2198:22
+    at TaskQueue.execute_ (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:3092:14)
+    at TaskQueue.executeNext_ (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:3075:27)
+    at /Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:2982:25
+    at /Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: Waiting for element to be located By(css selector, .menuitem[0] )
+    at scheduleWait (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:2196:20)
+    at ControlFlow.wait (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/promise.js:2525:12)
+    at thenableWebDriverProxy.wait (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/node_modules/selenium-webdriver/lib/webdriver.js:934:29)
+    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:96:31)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
         </testcase>
-    </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="8.338110112">
-        </testcase>
-        <testcase name="When I enter &quot;Colin Firth&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.104947603">
-        </testcase>
-        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.028984697">
-        </testcase>
-        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="5.018021714">
-        </testcase>
-        <testcase name="Then I get a presentation of the actor that contains the text &quot;Colin Andrew Firth was born into an academic family in Grayshott&quot;" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="0.139915441">
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
@@ -35,15 +55,15 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.554489952">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.60860247">
         </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.256038155">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.264334265">
         </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000140029">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000068535">
         </testcase>
-        <testcase name="And I click on All" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.252223702">
+        <testcase name="And I click on Titles" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.266768062">
         </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.01016703">
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.008697591">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
@@ -51,29 +71,15 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.751702611">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.36455339">
         </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.270189679">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.260555288">
         </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000075127">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000057236">
         </testcase>
-        <testcase name="And I click on Titles" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.258484949">
+        <testcase name="And I click on TV Episodes" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.267058534">
         </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.010462632">
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie-with-&quot;-vacation-&quot;-and-released-”1983”." tests="4" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-with-&quot;-vacation-&quot;-and-released-”1983”." time="8.895163551">
-        </testcase>
-        <testcase name="When I enter &quot; Vacation &quot;  and ”1983” in a search field" classname="imdb-search;search-for-a-movie-with-&quot;-vacation-&quot;-and-released-”1983”." time="0.178111546">
-        </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-with-&quot;-vacation-&quot;-and-released-”1983”." time="3.36084148">
-        </testcase>
-        <testcase name="Then I find the corresponding  &quot; Vacation &quot;  and ”1983”  in the search results" classname="imdb-search;search-for-a-movie-with-&quot;-vacation-&quot;-and-released-”1983”." time="0.101032074">
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.012403929">
         </testcase>
     </testsuite>
 </testsuites>

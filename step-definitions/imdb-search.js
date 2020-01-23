@@ -1,6 +1,7 @@
 let { $, sleep } = require('./funcs');
 
 let normalSleep = 1000;
+let longSleep = 4000;
 
 module.exports = function () {
 
@@ -94,42 +95,42 @@ module.exports = function () {
   this.When(/^I click on All$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(1)');
     await button.click();
-    await normalSleep;
+    await longSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Titles$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(2)');
     await button.click();
-    await normalSleep;
+    await longSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on TV Episodes$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(3)');
     await button.click();
-    await normalSleep;
+    await longSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Celebs$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(4)');
     await button.click();
-    await normalSleep;
+    await longSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Companies$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(5)');
     await button.click();
-    await normalSleep;
+    await longSleep;
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Keywords$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(6)');
     await button.click();
-    await normalSleep;
+    await longSleep;
   });
 
 
