@@ -1,49 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="imdb-search;search-for-a-movie" tests="4" failures="1" skipped="3">
+    <testsuite name="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" tests="4" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/imdb-test/features/imdb-search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="7.952254112">
-            <failure message="AssertionError: Expected the IMDB logo">AssertionError: Expected the IMDB logo
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/imdb-test/step-definitions/imdb-search.js:9:8)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="9.881961335">
         </testcase>
-        <testcase name="When I enter the &quot;Antz&quot; a search field" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I enter &quot;Chevy Chase&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.134994293">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="3.658591611">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;Antz&quot; in the search results" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I find the corresponding &quot;Chevy Chase&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.075210173">
         </testcase>
     </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie" tests="4" failures="1" skipped="3">
+    <testsuite name="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" tests="4" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/imdb-test/features/imdb-search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="8.607204136">
-            <failure message="AssertionError: Expected the IMDB logo">AssertionError: Expected the IMDB logo
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/imdb-test/step-definitions/imdb-search.js:9:8)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="8.210161475">
         </testcase>
-        <testcase name="When I enter the &quot;A bug&apos;s life&quot; a search field" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I enter &quot;Colin Firth&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="1.131224296">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="2.897076221">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;A bug&apos;s life&quot; in the search results" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I find the corresponding &quot;Colin Firth&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="1.085954984">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="10.625036351">
+        </testcase>
+        <testcase name="When I enter &quot;Colin Firth&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.099508857">
+        </testcase>
+        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.037311747">
+        </testcase>
+        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="5.013291865">
+        </testcase>
+        <testcase name="Then I get a presentation of the actor that contains the text &quot;Colin Andrew Firth was born into an academic family in Grayshott&quot;" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="0.171997173">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="9.829403781">
+        </testcase>
+        <testcase name="When I enter &quot;Josh Hartnett&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.111666036">
+        </testcase>
+        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.039338737">
+        </testcase>
+        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="5.011878134">
+        </testcase>
+        <testcase name="Then I get a presentation of the actor that contains the text &quot;Joshua Daniel Hartnett was born in Saint Paul, Minnesota&quot;" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="0.19618733">
         </testcase>
     </testsuite>
 </testsuites>
