@@ -5,13 +5,13 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="10.243711478">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="10.14830913">
         </testcase>
-        <testcase name="When I enter &quot;Chevy Chase&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.144248973">
+        <testcase name="When I enter &quot;Chevy Chase&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.116182011">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="2.83385666">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="2.522042773">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;Chevy Chase&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.180478968">
+        <testcase name="Then I find the corresponding &quot;Chevy Chase&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.061011567">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" tests="4" failures="0" skipped="0">
@@ -19,13 +19,13 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="8.970327294">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="8.301504915">
         </testcase>
-        <testcase name="When I enter &quot;Neil Breen&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="1.103031218">
+        <testcase name="When I enter &quot;Neil Breen&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="1.137452341">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="2.872791129">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="2.505705909">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;Neil Breen&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="1.106750752">
+        <testcase name="Then I find the corresponding &quot;Neil Breen&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="1.076870395">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" tests="5" failures="0" skipped="0">
@@ -33,15 +33,15 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="9.363229043">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="9.223823552">
         </testcase>
-        <testcase name="When I enter &quot;Colin Firth&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.153889081">
+        <testcase name="When I enter &quot;Colin Firth&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.113478571">
         </testcase>
-        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.104818054">
+        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.054411468">
         </testcase>
-        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="5.017939104">
+        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.010137542">
         </testcase>
-        <testcase name="Then I get a presentation of the actor that contains the text &quot;Colin Andrew Firth was born into an academic family in Grayshott&quot;" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="0.140682986">
+        <testcase name="Then I get a presentation of the actor that contains the text &quot;Colin Andrew Firth was born into an academic family in Grayshott&quot;" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.370315153">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" tests="5" failures="0" skipped="0">
@@ -49,15 +49,15 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="8.957122579">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="9.382291307">
         </testcase>
-        <testcase name="When I enter &quot;Josh Hartnett&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.125515647">
+        <testcase name="When I enter &quot;Josh Hartnett&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.116656479">
         </testcase>
-        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.100177831">
+        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.024797789">
         </testcase>
-        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="5.014973862">
+        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.005719128">
         </testcase>
-        <testcase name="Then I get a presentation of the actor that contains the text &quot;Joshua Daniel Hartnett was born in Saint Paul, Minnesota&quot;" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="0.173462174">
+        <testcase name="Then I get a presentation of the actor that contains the text &quot;Joshua Daniel Hartnett was born in Saint Paul, Minnesota&quot;" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.136785046">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." tests="4" failures="0" skipped="0">
@@ -65,13 +65,13 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="8.37011241">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="7.680422808">
         </testcase>
-        <testcase name="When I enter &quot;National Lampoon&apos;s Vacation &quot;  and ”1983” in a search field" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="0.294369043">
+        <testcase name="When I enter &quot;National Lampoon&apos;s Vacation &quot;  and ”1983” in a search field" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="2.217493595">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="3.007899866">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="3.075631872">
         </testcase>
-        <testcase name="Then I find the corresponding  &quot;National Lampoon&apos;s Vacation &quot;  and ”1983”  in the search results" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="0.118956324">
+        <testcase name="Then I find the corresponding  &quot;National Lampoon&apos;s Vacation &quot;  and ”1983”  in the search results" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="0.088259085">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." tests="4" failures="0" skipped="0">
@@ -79,29 +79,13 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="8.270471834">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="7.64778051">
         </testcase>
-        <testcase name="When I enter &quot; Vacation&quot;  and ”2015” in a search field" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="0.22528704">
+        <testcase name="When I enter &quot; Vacation&quot;  and ”2015” in a search field" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="2.151017047">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="2.814687601">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="3.100257758">
         </testcase>
-        <testcase name="Then I find the corresponding  &quot; Vacation&quot;  and ”2015”  in the search results" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="0.119527353">
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.611076172">
-        </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.337766634">
-        </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000206083">
-        </testcase>
-        <testcase name="And I click on All" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.24582146">
-        </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.010260679">
+        <testcase name="Then I find the corresponding  &quot; Vacation&quot;  and ”2015”  in the search results" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="0.107123317">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
@@ -109,31 +93,15 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.582747816">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.94626307">
         </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.28148278">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.251259464">
         </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000054332">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000126663">
         </testcase>
-        <testcase name="And I click on Titles" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.299685259">
+        <testcase name="And I click on All" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.231044199">
         </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.056578265">
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.538948715">
-        </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.262321004">
-        </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000088551">
-        </testcase>
-        <testcase name="And I click on TV Episodes" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.278172486">
-        </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.00987002">
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.008119342">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
@@ -141,15 +109,31 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.208682858">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.578111526">
         </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.26045844">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.264126334">
         </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000112462">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000199978">
         </testcase>
-        <testcase name="And I click on Celebs" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.258239471">
+        <testcase name="And I click on Titles" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.240373497">
         </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.01789988">
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.016113413">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.841223942">
+        </testcase>
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.26819809">
+        </testcase>
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000047971">
+        </testcase>
+        <testcase name="And I click on TV Episodes" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.267013564">
+        </testcase>
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.020792444">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="1" skipped="1">
@@ -157,15 +141,15 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="8.379593201">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="8.963495146">
         </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.289895332">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.298097656">
         </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000057303">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000041026">
         </testcase>
-        <testcase name="And I click on Companies" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.010047152">
+        <testcase name="And I click on Celebs" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.006406017">
             <failure message="TypeError: Cannot read property &apos;click&apos; of null">TypeError: Cannot read property &apos;click&apos; of null
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:125:18)
+    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:117:18)
     at runMicrotasks (&lt;anonymous&gt;)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
         </testcase>
@@ -174,20 +158,36 @@
             </skipped>
         </testcase>
     </testsuite>
+    <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.959123097">
+        </testcase>
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.284098669">
+        </testcase>
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000054981">
+        </testcase>
+        <testcase name="And I click on Companies" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.239150309">
+        </testcase>
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.02563626">
+        </testcase>
+    </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="1" skipped="1">
         <properties>
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="8.625336704">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="8.949687577">
         </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.271539856">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.285256246">
         </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000072485">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000046465">
         </testcase>
-        <testcase name="And I click on Keywords" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.009881034">
+        <testcase name="And I click on Keywords" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.005057296">
             <failure message="TypeError: Cannot read property &apos;click&apos; of null">TypeError: Cannot read property &apos;click&apos; of null
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:132:18)
+    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:131:18)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
         </testcase>
         <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;">

@@ -7,7 +7,7 @@ Feature: As a user of the IMDB website i want to add and sort movies in my wishl
     Scenario: ”I want to add”
         And that I am not logged in (account)
         When I click sign in
-        And choose sign in methond google
+        And choose sign in method google
         And enter my Email
         And hit the sign in button
         And enter my password
@@ -21,7 +21,7 @@ Feature: As a user of the IMDB website i want to add and sort movies in my wishl
     Scenario Outline: "What movies do I have in my watchlist?"
         And that I am not logged in (account)
         When I click sign in
-        And choose sign in methond google
+        And choose sign in method google
         And enter my Email
         And hit the sign in button
         And enter my password
@@ -33,8 +33,8 @@ Feature: As a user of the IMDB website i want to add and sort movies in my wishl
 
         Examples:
             | movies                        |
-            | The Shawshank Redemption      |
-            | Adventures of the Gummi Bears |
-            | Donald Duck Goin' Quackers    |
-            | The Jungle Book               |
+            | "The Shawshank Redemption"    |
+            | "Adventures of the Gummi Bears"|
+            | "Donald Duck Goin' Quackers"    |
+            | "The Jungle Book"             |
 

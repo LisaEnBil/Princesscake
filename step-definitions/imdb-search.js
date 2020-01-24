@@ -15,7 +15,7 @@ module.exports = function() {
 
     let searchField = await $('#suggestion-search');
     await searchField.sendKeys(actorsName);
-    await sleep(normalSleep);
+    await sleep (normalSleep);
   });
 
   this.When(/^I click the search button$/, async function () {
@@ -50,7 +50,7 @@ module.exports = function() {
   this.When(/^I press enter$/, async function () {
     let pressEnter = await $('#suggestion-search');
     pressEnter.sendKeys(selenium.Key.ENTER)
-    await sleep(normalSleep * 5);
+    await sleep(normalSleep);
 
   });
 
@@ -84,7 +84,7 @@ module.exports = function() {
   this.When(/^I click on search filter button$/, async function () {
     let button = await $('label.ipc-button:nth-child(1) > div:nth-child(1)');
     await button.click();
-    await normalSleep;
+    await sleep(normalSleep);
   });
 
   this.When(/^I find different search filters to choose from$/, async function () {
@@ -94,59 +94,58 @@ module.exports = function() {
   this.When(/^I click on All$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(1)');
     await button.click();
-    await normalSleep;
+    await sleep(normalSleep);
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Titles$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(2)');
     await button.click();
-    await normalSleep;
+    await sleep(normalSleep);
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on TV Episodes$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(3)');
     await button.click();
-    await normalSleep;
+    await sleep(normalSleep);
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Celebs$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(4)');
     await button.click();
-    await normalSleep;
+    await sleep(normalSleep);
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Companies$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(5)');
     await button.click();
-    await normalSleep;
+    await sleep(normalSleep);
     assert(button, 'Click on the button');
   });
 
   this.When(/^I click on Keywords$/, async function () {
     let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(6)');
     await button.click();
-    await normalSleep;
+    await sleep(normalSleep);
     assert(button, 'Click on the button');
   });
 
   this.Then(/^I can find an empty search field with corresponding search filter\.$/, async function () {
     let searchField = await $('#suggestion-search');
-    await normalSleep;
+    await sleep(normalSleep);
     assert(searchField, 'Expected the search CSS selector to prov that we find an empty search field');
 
   });
 
-
   this.When(/^I enter "([^"]*)"  and ”(\d+)” in a search field$/, async function (movieTitle,Year) {
     let searchField= await $('#suggestion-search');
     await searchField.sendKeys(movieTitle);
-    await normalSleep;
+    await sleep(normalSleep);
     await searchField.sendKeys(Year);
-    await normalSleep;
+    await sleep(normalSleep);
   });
 
   this.Then(/^I find the corresponding  "([^"]*)"  and ”(\d+)”  in the search results$/, async function (searchString, searchNumber) {

@@ -1,6 +1,6 @@
 Feature: IMDB-search
-  
-  
+
+
    Scenario Outline: Search for a movie using <actors_name>
       Given that I am on the IMDB website
       When I enter <actors_name> in a search field
@@ -23,7 +23,6 @@ Feature: IMDB-search
          | actor_name      | part_of_presentation                                               |
          | "Colin Firth"   | "Colin Andrew Firth was born into an academic family in Grayshott" |
          | "Josh Hartnett" | "Joshua Daniel Hartnett was born in Saint Paul, Minnesota"         |
-
    Scenario Outline: Search for a movie with <movie_name> and released <year>.
       Given that I am on the IMDB website
       When I enter <movie_name>  and <year> in a search field
@@ -47,9 +46,6 @@ Feature: IMDB-search
          | search_filters |
          | All            |
          | Titles         |
-          | TV Episodes |
-         | Celebs      |
-         | Companies   |
-         | Keywords    |
+         | TV Episodes    |
 
 

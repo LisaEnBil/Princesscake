@@ -39,7 +39,7 @@ module.exports = function () {
     });
 
     this.Then(/^I click on add a movie should be added to the wishlist$/, async function () {
-        pressAddToWatchList = await $('button.ipc-button:nth-child(2) > div:nth-child(2)')
+        pressAddToWatchList = await $('.ipc-icon--add')
         pressAddToWatchList.click()
         await sleep(1000)
         addedToWatchlist = await $('.uc-add-wl-button')
@@ -90,7 +90,7 @@ module.exports = function () {
         await sleep(2000)
         theShawshankRedemption = await $('tr.findResult:nth-child(1) > td:nth-child(2) > a:nth-child(1)')
         theShawshankRedemption.click('tr.findResult:nth-child(1) > td:nth-child(2) > a:nth-child(1)')
-        assert(true, "Expected to be browsing movies right now")
+        assert(theShawshankRedemption, "Expected to be browsing movies right now")
 
     });
     this.When(/^press the watchlist icon$/, async function () {
