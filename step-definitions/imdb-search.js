@@ -112,26 +112,6 @@ module.exports = function() {
     assert(button, 'Click on the button');
   });
 
-  this.When(/^I click on Celebs$/, async function () {
-    let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(4)');
-    await button.click();
-    await sleep(normalSleep);
-    assert(button, 'Click on the button');
-  });
-
-  this.When(/^I click on Companies$/, async function () {
-    let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(5)');
-    await button.click();
-    await sleep(normalSleep);
-    assert(button, 'Click on the button');
-  });
-
-  this.When(/^I click on Keywords$/, async function () {
-    let button = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(6)');
-    await button.click();
-    await sleep(normalSleep);
-    assert(button, 'Click on the button');
-  });
 
   this.Then(/^I can find an empty search field with corresponding search filter\.$/, async function () {
     let searchField = await $('#suggestion-search');

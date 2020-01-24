@@ -1,198 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" tests="4" failures="0" skipped="0">
+    <testsuite name="login-imdb;”look-at-create-new-account”" tests="4" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/login.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="10.14830913">
+        <testcase name="Given that I am on the IMDB website" classname="login-imdb;”look-at-create-new-account”" time="10.01237526">
         </testcase>
-        <testcase name="When I enter &quot;Chevy Chase&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.116182011">
+        <testcase name="And i do not have an existing account" classname="login-imdb;”look-at-create-new-account”" time="2.518287608">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="2.522042773">
+        <testcase name="When I click sign in" classname="login-imdb;”look-at-create-new-account”" time="2.513487538">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;Chevy Chase&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.061011567">
+        <testcase name="Then Sign in list and create a new account pops up" classname="login-imdb;”look-at-create-new-account”" time="2.060403064">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="7.933686857">
+        </testcase>
+        <testcase name="And i do not have an existing account" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="2.509826959">
+        </testcase>
+        <testcase name="When I click sign in" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="2.50698301">
+        </testcase>
+        <testcase name="Then with IMDB account list and create a new account pops up" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="2.014863112">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="7.702235574">
+        </testcase>
+        <testcase name="And i do not have an existing account" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="2.510852455">
+        </testcase>
+        <testcase name="When I click sign in" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="2.515462405">
+        </testcase>
+        <testcase name="Then with Amazon list and create a new account pops up" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="2.01489513">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="9.652533209">
+        </testcase>
+        <testcase name="And i do not have an existing account" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="2.517981089">
+        </testcase>
+        <testcase name="When I click sign in" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="2.513040424">
+        </testcase>
+        <testcase name="Then with facebook list and create a new account pops up" classname="login-imdb;”i-want-to-check-for-all-&lt;sign-in&gt;-alternatives”" time="2.056927422">
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" tests="12" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/rewatchlist.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="9.225324889">
+        </testcase>
+        <testcase name="And that I am not logged in (account)" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="2.009624869">
+        </testcase>
+        <testcase name="When I click sign in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="2.515811185">
+        </testcase>
+        <testcase name="And choose sign in method google" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="0.069859959">
+        </testcase>
+        <testcase name="And enter my Email" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="3.515453773">
+        </testcase>
+        <testcase name="And hit the sign in button" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="4.3033252">
+        </testcase>
+        <testcase name="And enter my password" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="1.014586216">
+        </testcase>
+        <testcase name="And hit enter" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="0.561219435">
+        </testcase>
+        <testcase name="And we validate that we are logged in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="3.271700098">
+        </testcase>
+        <testcase name="And find the movie &quot;nyckeln till frihet&quot; movie" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="1.514395777">
+        </testcase>
+        <testcase name="And click to browse the movie specifics" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="2.105442708">
+        </testcase>
+        <testcase name="Then I click on add a movie should be added to the wishlist" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;”i-want-to-add”" time="0.006741413">
+            <failure message="TypeError: Cannot read property &apos;click&apos; of null">TypeError: Cannot read property &apos;click&apos; of null
+    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/watchlist.js:43:29)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" tests="12" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/rewatchlist.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="7.639770371">
+        </testcase>
+        <testcase name="And that I am not logged in (account)" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.009585468">
+        </testcase>
+        <testcase name="When I click sign in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.510954304">
+        </testcase>
+        <testcase name="And choose sign in method google" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="0.083266546">
+        </testcase>
+        <testcase name="And enter my Email" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.517961528">
+        </testcase>
+        <testcase name="And hit the sign in button" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="4.200071311">
+        </testcase>
+        <testcase name="And enter my password" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="1.017490575">
+        </testcase>
+        <testcase name="And hit enter" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="0.558877436">
+        </testcase>
+        <testcase name="And we validate that we are logged in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.296035691">
+        </testcase>
+        <testcase name="And press the watchlist icon" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.036696948">
+        </testcase>
+        <testcase name="And I see the movie &quot;The Shawshank Redemption&quot; is added" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="4.757418371">
+        </testcase>
+        <testcase name="Then i select one" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.58741261">
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" tests="12" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/rewatchlist.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="9.883608168">
+        </testcase>
+        <testcase name="And that I am not logged in (account)" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.013161039">
+        </testcase>
+        <testcase name="When I click sign in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.511607334">
+        </testcase>
+        <testcase name="And choose sign in method google" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="0.071268644">
+        </testcase>
+        <testcase name="And enter my Email" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.517238247">
+        </testcase>
+        <testcase name="And hit the sign in button" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="4.264866008">
+        </testcase>
+        <testcase name="And enter my password" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="1.017367368">
+        </testcase>
+        <testcase name="And hit enter" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="0.56195678">
+        </testcase>
+        <testcase name="And we validate that we are logged in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.362777923">
+        </testcase>
+        <testcase name="And press the watchlist icon" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.030108865">
+        </testcase>
+        <testcase name="And I see the movie &quot;Adventures of the Gummi Bears&quot; is added" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="5.379668602">
+        </testcase>
+        <testcase name="Then i select one" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.591187311">
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" tests="12" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/rewatchlist.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="10.227633608">
+        </testcase>
+        <testcase name="And that I am not logged in (account)" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.00709628">
+        </testcase>
+        <testcase name="When I click sign in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.551125297">
+        </testcase>
+        <testcase name="And choose sign in method google" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="0.009716526">
+        </testcase>
+        <testcase name="And enter my Email" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.574796776">
+        </testcase>
+        <testcase name="And hit the sign in button" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="4.227208745">
+        </testcase>
+        <testcase name="And enter my password" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="1.014645973">
+        </testcase>
+        <testcase name="And hit enter" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="0.561020744">
+        </testcase>
+        <testcase name="And we validate that we are logged in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.21171011">
+        </testcase>
+        <testcase name="And press the watchlist icon" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.030124207">
+        </testcase>
+        <testcase name="And I see the movie &quot;Donald Duck Goin&apos; Quackers&quot; is added" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="5.891401338">
+        </testcase>
+        <testcase name="Then i select one" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.581976166">
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" tests="12" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/rewatchlist.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="10.018839445">
+        </testcase>
+        <testcase name="And that I am not logged in (account)" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.018407015">
+        </testcase>
+        <testcase name="When I click sign in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.514399442">
+        </testcase>
+        <testcase name="And choose sign in method google" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="0.069610663">
+        </testcase>
+        <testcase name="And enter my Email" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.523894697">
+        </testcase>
+        <testcase name="And hit the sign in button" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="4.211871318">
+        </testcase>
+        <testcase name="And enter my password" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="1.012709294">
+        </testcase>
+        <testcase name="And hit enter" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="0.55993313">
+        </testcase>
+        <testcase name="And we validate that we are logged in" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.311251387">
+        </testcase>
+        <testcase name="And press the watchlist icon" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="2.013925955">
+        </testcase>
+        <testcase name="And I see the movie &quot;The Jungle Book&quot; is added" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="5.621362603">
+        </testcase>
+        <testcase name="Then i select one" classname="as-a-user-of-the-imdb-website-i-want-to-add-and-sort-movies-in-my-wishlist.;&quot;what-movies-do-i-have-in-my-watchlist?&quot;" time="3.524850897">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="10.053723735">
+        </testcase>
+        <testcase name="When I enter &quot;Chevy Chase&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.104116614">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="2.553345235">
+        </testcase>
+        <testcase name="Then I find the corresponding &quot;Chevy Chase&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.062636028">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" tests="4" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="8.301504915">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="7.870701724">
         </testcase>
-        <testcase name="When I enter &quot;Neil Breen&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="1.137452341">
+        <testcase name="When I enter &quot;Neil Breen&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="1.124959565">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="2.505705909">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="2.714710975">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;Neil Breen&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="1.076870395">
+        <testcase name="Then I find the corresponding &quot;Neil Breen&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;neil-breen&quot;" time="1.086472708">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="9.223823552">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="8.900023624">
         </testcase>
-        <testcase name="When I enter &quot;Colin Firth&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.113478571">
+        <testcase name="When I enter &quot;Colin Firth&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.091701011">
         </testcase>
-        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.054411468">
+        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.091651527">
         </testcase>
-        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.010137542">
+        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.013005663">
         </testcase>
-        <testcase name="Then I get a presentation of the actor that contains the text &quot;Colin Andrew Firth was born into an academic family in Grayshott&quot;" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.370315153">
+        <testcase name="Then I get a presentation of the actor that contains the text &quot;Colin Andrew Firth was born into an academic family in Grayshott&quot;" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;-with-down-button-and-enter-key" time="1.703558977">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="9.382291307">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="7.991431331">
         </testcase>
-        <testcase name="When I enter &quot;Josh Hartnett&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.116656479">
+        <testcase name="When I enter &quot;Josh Hartnett&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.126560283">
         </testcase>
-        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.024797789">
+        <testcase name="And I press down button" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.027657073">
         </testcase>
-        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.005719128">
+        <testcase name="And I press enter" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.009463397">
         </testcase>
-        <testcase name="Then I get a presentation of the actor that contains the text &quot;Joshua Daniel Hartnett was born in Saint Paul, Minnesota&quot;" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="1.136785046">
+        <testcase name="Then I get a presentation of the actor that contains the text &quot;Joshua Daniel Hartnett was born in Saint Paul, Minnesota&quot;" classname="imdb-search;search-for-a-movie-using-&quot;josh-hartnett&quot;-with-down-button-and-enter-key" time="2.186190793">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." tests="4" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="7.680422808">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="9.229605687">
         </testcase>
-        <testcase name="When I enter &quot;National Lampoon&apos;s Vacation &quot;  and ”1983” in a search field" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="2.217493595">
+        <testcase name="When I enter &quot;National Lampoon&apos;s Vacation &quot;  and ”1983” in a search field" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="2.176395285">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="3.075631872">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="2.585712451">
         </testcase>
-        <testcase name="Then I find the corresponding  &quot;National Lampoon&apos;s Vacation &quot;  and ”1983”  in the search results" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="0.088259085">
+        <testcase name="Then I find the corresponding  &quot;National Lampoon&apos;s Vacation &quot;  and ”1983”  in the search results" classname="imdb-search;search-for-a-movie-with-&quot;national-lampoon&apos;s-vacation-&quot;-and-released-”1983”." time="0.132900477">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." tests="4" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="7.64778051">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="9.274458782">
         </testcase>
-        <testcase name="When I enter &quot; Vacation&quot;  and ”2015” in a search field" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="2.151017047">
+        <testcase name="When I enter &quot; Vacation&quot;  and ”2015” in a search field" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="2.260219807">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="3.100257758">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="3.195541415">
         </testcase>
-        <testcase name="Then I find the corresponding  &quot; Vacation&quot;  and ”2015”  in the search results" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="0.107123317">
+        <testcase name="Then I find the corresponding  &quot; Vacation&quot;  and ”2015”  in the search results" classname="imdb-search;search-for-a-movie-with-&quot;-vacation&quot;-and-released-”2015”." time="0.122406732">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.94626307">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.846889398">
         </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.251259464">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.262121593">
         </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000126663">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000191164">
         </testcase>
-        <testcase name="And I click on All" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.231044199">
+        <testcase name="And I click on All" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.234972021">
         </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.008119342">
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.007297692">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.578111526">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.688711468">
         </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.264126334">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.284924737">
         </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000199978">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000110282">
         </testcase>
-        <testcase name="And I click on Titles" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.240373497">
+        <testcase name="And I click on Titles" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.259159799">
         </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.016113413">
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.00835308">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.841223942">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.831093505">
         </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.26819809">
+        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.272487748">
         </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000047971">
+        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000065057">
         </testcase>
-        <testcase name="And I click on TV Episodes" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.267013564">
+        <testcase name="And I click on TV Episodes" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.256623632">
         </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.020792444">
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="1" skipped="1">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="8.963495146">
-        </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.298097656">
-        </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000041026">
-        </testcase>
-        <testcase name="And I click on Celebs" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.006406017">
-            <failure message="TypeError: Cannot read property &apos;click&apos; of null">TypeError: Cannot read property &apos;click&apos; of null
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:117:18)
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
-        </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="7.959123097">
-        </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.284098669">
-        </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000054981">
-        </testcase>
-        <testcase name="And I click on Companies" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.239150309">
-        </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.02563626">
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" tests="5" failures="1" skipped="1">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/Princesscake/features/imdb_search.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="8.949687577">
-        </testcase>
-        <testcase name="When I click on search filter button" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.285256246">
-        </testcase>
-        <testcase name="And I find different search filters to choose from" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.000046465">
-        </testcase>
-        <testcase name="And I click on Keywords" classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="0.005057296">
-            <failure message="TypeError: Cannot read property &apos;click&apos; of null">TypeError: Cannot read property &apos;click&apos; of null
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/Princesscake/step-definitions/imdb-search.js:131:18)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
-        </testcase>
-        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I can find an empty search field with corresponding search filter." classname="imdb-search;search-for-a-movie-or-actor-with-the-help-of-&lt;search_filter&gt;" time="1.105175501">
         </testcase>
     </testsuite>
 </testsuites>
